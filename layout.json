@@ -18,8 +18,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RGUI",
-                    "label": "RGUI"
+                    "key": "BACKSLASH",
+                    "label": "\\"
+                },
+                "1": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -118,6 +122,10 @@
                 "0": {
                     "key": "BACKTICK",
                     "label": "`"
+                },
+                "1": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -317,8 +325,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "CAPSLOCK",
-                    "label": "CAPSLK"
+                    "key": "ESCAPE",
+                    "label": "ESC"
                 }
             }
         },
@@ -330,8 +338,8 @@
             "h": 4,
             "layers": {
                 "1": {
-                    "key": "CONS:VOLUMEUP",
-                    "label": "VOL+"
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -343,8 +351,8 @@
             "h": 4,
             "layers": {
                 "1": {
-                    "key": "CONS:VOLUMEDOWN",
-                    "label": "VOL-"
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -356,8 +364,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "DELETE",
-                    "label": "DEL"
+                    "key": "BACKSPACE",
+                    "label": "BKSP"
                 }
             }
         },
@@ -436,6 +444,10 @@
                 "0": {
                     "key": "LSHIFT",
                     "label": "L\u21d1"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -473,8 +485,8 @@
             "h": 8,
             "layers": {
                 "0": {
-                    "key": "LCTRL",
-                    "label": "LCTRL"
+                    "key": "LALT",
+                    "label": "LALT"
                 },
                 "1": {
                     "key": "CONS:SCANNEXTTRACK",
@@ -490,8 +502,8 @@
             "h": 8,
             "layers": {
                 "0": {
-                    "key": "BACKSPACE",
-                    "label": "BKSP"
+                    "key": "LCTRL",
+                    "label": "LCTRL"
                 },
                 "1": {
                     "key": "CONS:SCANPREVIOUSTRACK",
@@ -572,8 +584,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "EQUALS",
-                    "label": "="
+                    "key": "MINUS",
+                    "label": "-"
+                },
+                "1": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -670,8 +686,12 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "MINUS",
-                    "label": "-"
+                    "key": "EQUALS",
+                    "label": "="
+                },
+                "1": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -878,8 +898,8 @@
             "h": 6,
             "layers": {
                 "0": {
-                    "key": "RALT",
-                    "label": "RALT"
+                    "key": "DELETE",
+                    "label": "DEL"
                 }
             }
         },
@@ -958,6 +978,10 @@
                 "0": {
                     "key": "RSHIFT",
                     "label": "R\u21d1"
+                },
+                "1": {
+                    "key": "CAPSLOCK",
+                    "label": "CAPSLK"
                 }
             }
         },
@@ -969,8 +993,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LCK2",
-                    "label": "LOCK-2"
+                    "key": "LCK1",
+                    "label": "LOCK-1"
                 }
             }
         },
@@ -982,8 +1006,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "FUN2",
-                    "label": "\u01922"
+                    "key": "FUN1",
+                    "label": "\u01921"
                 }
             }
         },
@@ -997,6 +1021,10 @@
                 "0": {
                     "key": "ENTER",
                     "label": "\u21b5"
+                },
+                "1": {
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             }
         },
@@ -1012,8 +1040,8 @@
                     "label": "[&nbsp;]"
                 },
                 "1": {
-                    "key": "#:flashMode()",
-                    "label": "FLASH"
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             }
         },
